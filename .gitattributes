@@ -1,0 +1,12 @@
+# Normalize line endings so the same file is byte-identical on every platform.
+# (Without this, Windows checkouts rewrite LF to CRLF and the edit-discipline
+#  hashes in check_edit_discipline.py stop matching.)
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# binary
+*.png binary
+*.jpg binary
+*.zip binary
