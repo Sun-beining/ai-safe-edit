@@ -1,0 +1,11 @@
+# backups and runtime state created by safe_edit
+.safe_edit_backup/
+.safe_edit_stamps.json
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
