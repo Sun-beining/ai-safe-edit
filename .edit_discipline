@@ -1,0 +1,5 @@
+# Files that must only ever change through safe_edit.
+# Guard-class files first: the tool itself, the checkers, the entry points.
+safe_edit.py
+check_edit_discipline.py
+mcp_server.py
